@@ -1,0 +1,32 @@
+{
+  "baseUrl": "https://blogdoagi.com.br",
+  "fixturesFolder": "cypress/fixtures/",
+  "integrationFolder": "cypress/specs/",
+  "pluginsFile": "cypress/plugins/",
+  "screenshotsFolder": "screenshots/",
+  "supportFile": "cypress/support/",
+  "video": true,
+  "screenshots": true,
+  "defaultCommandTimeout": 40000,
+  "pageLoadTimeout": 40000,
+  "chromeWebSecurity": false,
+  "viewportWidth": 1980,
+  "viewportHeight": 1080,
+  "experimentalSessionAndOrigin": true,
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+  "screenshotOnRunFailure": true,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  }
+}
