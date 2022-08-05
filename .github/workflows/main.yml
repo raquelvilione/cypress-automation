@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        containers: [1, 2]
+        job: [0, 1]
     container: cypress/included:9.6.1
     steps:
       - name: Checkout
