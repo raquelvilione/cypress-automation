@@ -1,4 +1,5 @@
 {
+  "projectId": "qck7tp",
   "baseUrl": "https://blogdoagi.com.br",
   "fixturesFolder": "cypress/fixtures/",
   "integrationFolder": "cypress/specs/",
