@@ -14,12 +14,13 @@ jobs:
       matrix:
         job: [0, 1]
     container: cypress/included:9.6.1
+
     steps:
       - name: Checkout
-        - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: UI Tests - Chrome
-      - run: npm run test:headless
+        run: npm run test:headless
 
     - name: Save screenshots
         uses: actions/upload-artifact@v3
